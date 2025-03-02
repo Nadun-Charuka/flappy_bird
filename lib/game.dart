@@ -92,6 +92,7 @@ class FlappyBirdGame extends FlameGame with TapDetector, HasCollisionDetection {
     bird.position = Vector2(birdStartX, birdStartY);
     bird.velocity = 0;
     isGameOver = false;
+    score = 0;
     //remove all pipe from the game
     children.whereType<Pipe>().forEach((Pipe pipe) => pipe.removeFromParent());
     resumeEngine();

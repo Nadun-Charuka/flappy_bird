@@ -7,6 +7,6 @@ const double jumpStrength = -250;
 const double groundHeight = 200;
 const double groundScrollingSpeed = 100;
 const double pipeInterval = 2;
-const double pipeGap = 260;
+const double pipeGap = 200;
 const double minPipeHeight = 50;
 const double pipeWidth = 60;
